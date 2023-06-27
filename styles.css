@@ -1,33 +1,24 @@
-<table class='table-based font-monospace text-end fw-bold'>
-		<thead>
-				<th>#</th>
-				<th>From</th>
-				<th>To</th>
-				<th>Amount($)</th>
-		</thead>
-	<tbody>
-		<tr>
-			<td>1</td>
-			<td>Mark</td>
-			<td>Otto</td>
-			<td>1000</td>
-		</tr>
-		<tr>
-			<td>2</td>
-			<td>Jacob</td>
-			<td>Thornton</td>
-			<td>1500</td>
-		</tr>
-		<tr>
-			<td>3</td>
-			<td>Jack</td>
-			<td>John</td>
-			<td>2000</td>
-		</tr>
-	</tbody>
-		<tfoot>
-			<td colspan='3' class='total'>Total</td>
-			<td>4000</td>
-		</tfoot>
-	</table>
-/* Your CSS Code here. */
+*{
+	text-align:left; 
+    content:justify;
+}
+.table:hover{
+	color:black;
+}
+.table-dark{
+	background-color:black;
+}
+th{
+	
+	border:1px solid black;
+	color:white;
+	background-color:black;
+}
+caption{
+	text-align:start;
+}
+.table-light{
+	font:monospace; 
+	text:end;
+	fw:bold;
+}
