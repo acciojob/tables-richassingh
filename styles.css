@@ -2,8 +2,8 @@
 	text-align:left; 
     content:justify;
 }
-.table:hover{
-	color:black;
+tr:hover{
+	background-color::black;
 }
 .table-dark{
 	background-color:black;
